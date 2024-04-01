@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    100% {transform: rotateZ(360deg);}
+}
+
+#secondhand { animation: rotate 60s infinite linear; }
+
+#hourhand { animation: rotate 300s infinite linear;} 
+
+#minutehand { animation: rotate 100s infinite linear ; }
+
+#clock {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 5px double #333;
+    background: -webkit-radial-gradient(#333333, #000000);
+    background: radial-gradient(#333333, #000000);
+    margin: 2rem auto;
+    position: relative;
+}
+
+#hourhand, #minutehand, #secondhand {
+    position: absolute;
+    background: white;
+    -webkit-transform-origin: bottom center;
+    transform-origin: bottom center;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#hourhand {
+    width: 4%;
+    height: 30%;
+    left: calc(50% - (4% / 2));
+    top: calc(50% - 30%);
+}
+
+#minutehand {
+    width: 2%;
+    height: 40%;
+    left: calc(50% - (2% / 2));
+    top: calc(50% - 40%);
+}
+
+#secondhand {
+    width: 1%;
+    height: 45%;
+    background: red;
+    left: calc(50% - (1% / 2));
+    top: calc(50% - 45%);
+}
