@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(188, 190, 190);
+    color: rgb(219, 221, 223);
+    font-family: sans-serif;
+    font-size: 10px;
+    width: 780px;
+}
+
+#container {
+    background: rgb(248, 243, 243);
+    margin: 30px auto;
+    width: 780px;
+    height: 600px;
+}
+
+#header {
+    background-color: rgb(122, 26, 93);
+    height: 40px;
+    width: 780px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#menu {
+    background-color: rgb(107, 10, 78);
+    height: 40px;
+    width: 780px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#aside {
+    background-color: rgb(221, 102, 201);
+    
+    width: 150px;
+    padding: 10px ;
+    display: block;
+    margin-top: 10px;
+    
+}
+
+#main {
+    background-color: rgb(139, 33, 113);
+    
+    width: 450px;
+    height: 200px;
+    padding: 20px;
+    float: right;
+    margin: -138px 110px ;
+
+}
+
+#aside-J {
+    
+    background-color: rgb(216, 99, 167);
+    width: 50px;
+    height: 200px;
+    float: right;
+    margin-top: -138px; 
+    padding: 10px;
+    text-align: center;
+     
+     
+}
+
+#main section {
+    
+    width: 380px;
+    height: 30px;
+    margin: 10px 10px;
+    background-color: rgb(175, 73, 136);
+    padding: 20px;
+
+
+}
+
+#footer {
+    background-color: rgb(85, 21, 58);
+    height: 40px;
+    margin-top: 110px;
+    width: 780px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
