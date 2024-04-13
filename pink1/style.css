@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 50%;
+    background-color: #f1efef;
+}
+
+
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #a4a7a4;
+}
+
+th {
+    background-color: #4CAF50;
+    color: rgb(17, 7, 7);
+}
+
+
+.scroll-table-body {
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.scroll-table table {
+    width: 100%;
+    table-layout: fixed;
+    border: none;
+}
+
+.scroll-table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	background: #4CAF50;
+	font-size: 14px;
+	
+}
+
+.scroll-table tbody td {
+	text-align: left;
+	font-size: 14px;
+	vertical-align: top;
+    
+}
+
+.scroll-table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+ 
+.scroll {
+    width: 350px;
+    height: 300px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
