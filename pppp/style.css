@@ -1,0 +1,33 @@
+.content {
+    font-size: 40px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content p {
+    display: inline-block;
+    border: 5px solid red;
+    background-color: aqua;
+    color: black;
+    width: 400px;
+    
+}
+
+@media (max-width: 600px) {
+    .content p {
+        
+        color: green;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .content p {
+        color: blue;
+        font-size: 20px;
+    }
+} 
+
