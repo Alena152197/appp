@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: serif;
+}
+
+.item {
+    filter: blur(1px);
+}
+
+
+
+.CREDIT-CARD {
+    border-radius: 15px;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: rgb(160, 226, 226);
+}
+
+.card {
+    display: inline;
+    padding: 20px 200px;
+    background-color: rgb(245, 106, 51);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    right: 30px;
+
+    
+}
+
+.credit {
+    position: relative;
+    margin-top: 130px;
+    
+
+}
+
+.full-name {
+    background-color: rgb(184, 226, 226);
+    width: 450px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.instructions {
+    position: relative;
+    top: -50px;
+    left: 95px;
+    font-size: 15px;
+}
+
+.credit-item {
+    margin-top: 50px;
+    margin-left: -9px;
+    
+}
+
+
+.full-date {
+    width: 130px;
+    background-color: rgb(184, 226, 226);
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.Expiry-Date {
+    position: relative;
+    top: -50px;
+    left: 87px;
+    font-size: 15px;
+
+}
+
+.Expiry-Date-ITEM {
+    position: relative;
+    top: -50px;
+    right: 120px;
+}
+
+input {
+    border: 3px solid rgb(134, 175, 182);
+}
+
