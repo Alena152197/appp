@@ -33,6 +33,7 @@ main {
 
 }
 
+
 h2 {
     margin-bottom: 10px;
 }
@@ -48,17 +49,25 @@ h2 {
 
 .form {
     width: 300px;
+    border-color: #f7f6f6;
 }
 
 
 
-.form-item {
+.form-item_1 {
     width: 148px;
+    border-color: #f7f6f6;
+    
 }
 
 .form_1 {
     margin: 30px 30px 0 0;
+    
+}
 
+.form-rec {
+    margin: 10px 10px;
+    border-color: #f7f6f6;
 }
 
 .radio-button {
@@ -108,7 +117,7 @@ footer {
 
 .submit {
     width: 140px;
-    margin-left: 580px;
+    margin-left: 610px;
     padding: 10px;
     background-color: rgb(8, 175, 175);
     color: #fff;
@@ -117,47 +126,76 @@ footer {
 }
 
 @media screen and (max-width: 901px) {
+
+
     .sidbar {
         width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         margin-left: 20px;
+
     }
+
+    .form-rec {
+        margin: 10px 10px;
+    }
+
+    .submit {
+        width: 140px;
+        margin-left: 780px;
+        padding: 10px;
+        background-color: rgb(8, 175, 175);
+        color: #fff;
+        border-radius: 5px;
+        border-color: rgb(8, 175, 175);
+    }
+
 
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
+
     .submit {
         width: 140px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        margin-left: 230px;
+        margin-left: 330px;
+        padding: 10px;
+        background-color: rgb(8, 175, 175);
+        color: #fff;
+        border-radius: 5px;
+        border-color: rgb(8, 175, 175);
     }
+    .form {
+        width: 405px;
+    }
+
+
+    .form-item_1 {
+        width: 200px;
+    }
+
+    .form-rec {
+        margin: 5px;
+        width: 215px;
+        
+
+    }
+
+
 }
 
 @media screen and (max-width: 600px) {
-    .submit {
-        width: 140px;
+    .aside-item_1 {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        margin-left: 230px;
-    }
-
-    .form-item {
-        width: 300px;
     }
 
     .form-item_1 {
-        width: 299px;
+        width: 300px;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: 43px;
-        margin-top: 20px;
-        
+        margin-left: 44px;
+        margin-bottom: 40px;
+        margin-top: -20px;
     }
 
     .form_1 {
@@ -169,14 +207,22 @@ footer {
 
     .form-rec {
         margin: 5px;
-        
-    }
-
-    .form_2 {
+        width: 340px;
     
+    }
+    .form_2 {
+
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .submit {
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 230px;
     }
 
 
